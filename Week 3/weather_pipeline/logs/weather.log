@@ -1,0 +1,12 @@
+2026-06-04 12:24:06,824 - INFO - Weather data stored in data\weather_20260604_122406.json
+2026-06-04 12:24:06,824 - INFO - History updated
+2026-06-04 12:24:06,824 - INFO - Weather fetched for Kanpur
+2026-06-04 12:24:20,447 - INFO - Weather data stored in data\weather_20260604_122420.json
+2026-06-04 12:24:20,463 - INFO - History updated
+2026-06-04 12:24:20,463 - INFO - Weather fetched for Delhi
+2026-06-04 12:24:28,723 - INFO - Weather data stored in data\weather_20260604_122428.json
+2026-06-04 12:24:28,739 - INFO - History updated
+2026-06-04 12:24:28,739 - INFO - Weather fetched for Chennai
+2026-06-04 12:25:00,169 - INFO - Weather data stored in data\weather_20260604_122500.json
+2026-06-04 12:25:00,185 - INFO - History updated
+2026-06-04 12:25:00,483 - INFO - Weather fetched for Hyderabad

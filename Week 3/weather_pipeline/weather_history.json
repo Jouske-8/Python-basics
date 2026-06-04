@@ -1,0 +1,34 @@
+[
+    {
+        "city": "Kanpur",
+        "timestamp": "2026-06-04T12:24:06.824839",
+        "temperature_celsius": 38.3,
+        "humidity": 29,
+        "pressure": 1000.7,
+        "weather_condition": "Clear Sky"
+    },
+    {
+        "city": "Delhi",
+        "timestamp": "2026-06-04T12:24:20.447920",
+        "temperature_celsius": 39.2,
+        "humidity": 26,
+        "pressure": 1000.2,
+        "weather_condition": "Clear Sky"
+    },
+    {
+        "city": "Chennai",
+        "timestamp": "2026-06-04T12:24:28.723636",
+        "temperature_celsius": 38.0,
+        "humidity": 35,
+        "pressure": 1004.9,
+        "weather_condition": "Partly Cloudy"
+    },
+    {
+        "city": "Hyderabad",
+        "timestamp": "2026-06-04T12:25:00.169770",
+        "temperature_celsius": 35.0,
+        "humidity": 37,
+        "pressure": 1005.6,
+        "weather_condition": "Mainly Clear"
+    }
+]
