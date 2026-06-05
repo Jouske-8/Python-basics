@@ -1,0 +1,5 @@
+2026-06-05 15:12:21,387 - INFO - GET request for post 1
+2026-06-05 15:12:22,335 - INFO - POST request executed
+2026-06-05 15:12:23,681 - INFO - PUT request for 1
+2026-06-05 15:12:24,653 - INFO - PATCH request for 1
+2026-06-05 15:12:25,644 - INFO - DELETE request for 1
