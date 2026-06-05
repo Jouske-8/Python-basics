@@ -1,0 +1,3 @@
+2026-06-05 12:21:19,000 - INFO - Fetching top 10 coins
+2026-06-05 12:21:20,355 - INFO - Crypto data fetched successfully
+2026-06-05 12:21:20,361 - INFO - Analysis saved to data/crypto_analysis_20260605_122120.json

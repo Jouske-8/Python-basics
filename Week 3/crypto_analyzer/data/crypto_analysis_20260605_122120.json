@@ -1,0 +1,255 @@
+{
+    "generated_at": "2026-06-05T12:21:20.361212",
+    "top_coins": [
+        {
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "rank": 1,
+            "price_usd": 61839,
+            "market_cap": 1239569569500,
+            "price_change_24h": -3.46408
+        },
+        {
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "rank": 2,
+            "price_usd": 1656.57,
+            "market_cap": 199964834809,
+            "price_change_24h": -7.47138
+        },
+        {
+            "name": "Tether",
+            "symbol": "USDT",
+            "rank": 3,
+            "price_usd": 0.999053,
+            "market_cap": 187348099077,
+            "price_change_24h": 0.00396
+        },
+        {
+            "name": "BNB",
+            "symbol": "BNB",
+            "rank": 4,
+            "price_usd": 580.15,
+            "market_cap": 78246432486,
+            "price_change_24h": -4.20059
+        },
+        {
+            "name": "USDC",
+            "symbol": "USDC",
+            "rank": 5,
+            "price_usd": 0.999658,
+            "market_cap": 75577235618,
+            "price_change_24h": 0.00194
+        },
+        {
+            "name": "XRP",
+            "symbol": "XRP",
+            "rank": 6,
+            "price_usd": 1.11,
+            "market_cap": 69088738756,
+            "price_change_24h": -6.39465
+        },
+        {
+            "name": "Solana",
+            "symbol": "SOL",
+            "rank": 7,
+            "price_usd": 65.08,
+            "market_cap": 37657890087,
+            "price_change_24h": -7.78447
+        },
+        {
+            "name": "TRON",
+            "symbol": "TRX",
+            "rank": 8,
+            "price_usd": 0.324813,
+            "market_cap": 30781670943,
+            "price_change_24h": -2.24698
+        },
+        {
+            "name": "Figure Heloc",
+            "symbol": "FIGR_HELOC",
+            "rank": 9,
+            "price_usd": 1.019,
+            "market_cap": 18837689415,
+            "price_change_24h": 1.80632
+        },
+        {
+            "name": "Hyperliquid",
+            "symbol": "HYPE",
+            "rank": 10,
+            "price_usd": 60.93,
+            "market_cap": 13536470169,
+            "price_change_24h": -13.6521
+        }
+    ],
+    "sorted_by_price": [
+        {
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "rank": 1,
+            "price_usd": 61839,
+            "market_cap": 1239569569500,
+            "price_change_24h": -3.46408
+        },
+        {
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "rank": 2,
+            "price_usd": 1656.57,
+            "market_cap": 199964834809,
+            "price_change_24h": -7.47138
+        },
+        {
+            "name": "BNB",
+            "symbol": "BNB",
+            "rank": 4,
+            "price_usd": 580.15,
+            "market_cap": 78246432486,
+            "price_change_24h": -4.20059
+        },
+        {
+            "name": "Solana",
+            "symbol": "SOL",
+            "rank": 7,
+            "price_usd": 65.08,
+            "market_cap": 37657890087,
+            "price_change_24h": -7.78447
+        },
+        {
+            "name": "Hyperliquid",
+            "symbol": "HYPE",
+            "rank": 10,
+            "price_usd": 60.93,
+            "market_cap": 13536470169,
+            "price_change_24h": -13.6521
+        },
+        {
+            "name": "XRP",
+            "symbol": "XRP",
+            "rank": 6,
+            "price_usd": 1.11,
+            "market_cap": 69088738756,
+            "price_change_24h": -6.39465
+        },
+        {
+            "name": "Figure Heloc",
+            "symbol": "FIGR_HELOC",
+            "rank": 9,
+            "price_usd": 1.019,
+            "market_cap": 18837689415,
+            "price_change_24h": 1.80632
+        },
+        {
+            "name": "USDC",
+            "symbol": "USDC",
+            "rank": 5,
+            "price_usd": 0.999658,
+            "market_cap": 75577235618,
+            "price_change_24h": 0.00194
+        },
+        {
+            "name": "Tether",
+            "symbol": "USDT",
+            "rank": 3,
+            "price_usd": 0.999053,
+            "market_cap": 187348099077,
+            "price_change_24h": 0.00396
+        },
+        {
+            "name": "TRON",
+            "symbol": "TRX",
+            "rank": 8,
+            "price_usd": 0.324813,
+            "market_cap": 30781670943,
+            "price_change_24h": -2.24698
+        }
+    ],
+    "sorted_by_market_cap": [
+        {
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "rank": 1,
+            "price_usd": 61839,
+            "market_cap": 1239569569500,
+            "price_change_24h": -3.46408
+        },
+        {
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "rank": 2,
+            "price_usd": 1656.57,
+            "market_cap": 199964834809,
+            "price_change_24h": -7.47138
+        },
+        {
+            "name": "Tether",
+            "symbol": "USDT",
+            "rank": 3,
+            "price_usd": 0.999053,
+            "market_cap": 187348099077,
+            "price_change_24h": 0.00396
+        },
+        {
+            "name": "BNB",
+            "symbol": "BNB",
+            "rank": 4,
+            "price_usd": 580.15,
+            "market_cap": 78246432486,
+            "price_change_24h": -4.20059
+        },
+        {
+            "name": "USDC",
+            "symbol": "USDC",
+            "rank": 5,
+            "price_usd": 0.999658,
+            "market_cap": 75577235618,
+            "price_change_24h": 0.00194
+        },
+        {
+            "name": "XRP",
+            "symbol": "XRP",
+            "rank": 6,
+            "price_usd": 1.11,
+            "market_cap": 69088738756,
+            "price_change_24h": -6.39465
+        },
+        {
+            "name": "Solana",
+            "symbol": "SOL",
+            "rank": 7,
+            "price_usd": 65.08,
+            "market_cap": 37657890087,
+            "price_change_24h": -7.78447
+        },
+        {
+            "name": "TRON",
+            "symbol": "TRX",
+            "rank": 8,
+            "price_usd": 0.324813,
+            "market_cap": 30781670943,
+            "price_change_24h": -2.24698
+        },
+        {
+            "name": "Figure Heloc",
+            "symbol": "FIGR_HELOC",
+            "rank": 9,
+            "price_usd": 1.019,
+            "market_cap": 18837689415,
+            "price_change_24h": 1.80632
+        },
+        {
+            "name": "Hyperliquid",
+            "symbol": "HYPE",
+            "rank": 10,
+            "price_usd": 60.93,
+            "market_cap": 13536470169,
+            "price_change_24h": -13.6521
+        }
+    ],
+    "insights": {
+        "highest_price_coin": "Bitcoin",
+        "largest_market_cap_coin": "Bitcoin",
+        "biggest_gainer": "Figure Heloc",
+        "biggest_loser": "Hyperliquid"
+    }
+}
