@@ -15,6 +15,10 @@ from services.student_service import (
     delete_student
 )
 
+from exceptions.custom_exceptions import (
+    StudentNotFoundException
+)
+
 router = APIRouter(
     prefix="/students",
     tags=["Students"]
@@ -42,9 +46,8 @@ def fetch_student(student_id: int):
     student = get_student(student_id)
 
     if not student:
-        raise HTTPException(
-            status_code=404,
-            detail="Student not found"
+        raise StudentNotFoundException(
+            student_id
         )
 
     return student
@@ -89,9 +92,8 @@ def modify_student(
     )
 
     if not updated:
-        raise HTTPException(
-            status_code=404,
-            detail="Student not found"
+        raise StudentNotFoundException(
+            student_id
         )
 
     return updated
@@ -107,9 +109,8 @@ def remove_student(student_id: int):
     deleted = delete_student(student_id)
 
     if not deleted:
-        raise HTTPException(
-            status_code=404,
-            detail="Student not found"
+        raise StudentNotFoundException(
+            student_id
         )
 
     return
