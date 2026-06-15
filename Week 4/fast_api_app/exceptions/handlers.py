@@ -73,3 +73,18 @@ async def weather_exception_handler(
         }
     )
 
+async def crypto_exception_handler(
+    request,
+    exc
+):
+
+    return JSONResponse(
+        status_code=503,
+        content={
+            "success": False,
+            "error": {
+                "code": 503,
+                "message": exc.message
+            }
+        }
+    )

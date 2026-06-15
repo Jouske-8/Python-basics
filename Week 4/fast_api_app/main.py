@@ -16,6 +16,19 @@ from exceptions.custom_exceptions import (
     ExternalAPIException,
     WeatherAPIException
 )
+from routes.crypto_routes import (
+    router as crypto_router
+)
+
+from exceptions.custom_exceptions import (
+    CryptoAPIException
+)
+
+from exceptions.handlers import (
+    crypto_exception_handler
+)
+
+
 
 app = FastAPI(
     title="Student Management API",
@@ -25,6 +38,7 @@ app = FastAPI(
 # Routers
 app.include_router(student_router)
 app.include_router(weather_router)
+app.include_router(crypto_router)
 
 # Exception Handlers
 app.add_exception_handler(
@@ -45,6 +59,11 @@ app.add_exception_handler(
 app.add_exception_handler(
     WeatherAPIException,
     weather_exception_handler
+)
+
+app.add_exception_handler(
+    CryptoAPIException,
+    crypto_exception_handler
 )
 
 @app.get("/")

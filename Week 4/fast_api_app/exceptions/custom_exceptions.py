@@ -14,3 +14,7 @@ class ExternalAPIException(Exception):
 class WeatherAPIException(Exception):
     def __init__(self, message: str):
         self.message = message
+
+class CryptoAPIException(Exception):
+    def __init__(self, message: str):
+        self.message = message
