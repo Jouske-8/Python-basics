@@ -1,17 +1,20 @@
 from fastapi import FastAPI
-from routes.student_routes import router
 from fastapi.exceptions import RequestValidationError
 
+from routes.student_routes import router as student_router
+from routes.weather_routes import router as weather_router
 
 from exceptions.handlers import (
     student_not_found_handler,
     validation_exception_handler,
-    api_failure_handler
+    api_failure_handler,
+    weather_exception_handler
 )
 
 from exceptions.custom_exceptions import (
     StudentNotFoundException,
-    ExternalAPIException
+    ExternalAPIException,
+    WeatherAPIException
 )
 
 app = FastAPI(
@@ -19,8 +22,11 @@ app = FastAPI(
     version="1.0"
 )
 
-app.include_router(router)
+# Routers
+app.include_router(student_router)
+app.include_router(weather_router)
 
+# Exception Handlers
 app.add_exception_handler(
     StudentNotFoundException,
     student_not_found_handler
@@ -34,6 +40,11 @@ app.add_exception_handler(
 app.add_exception_handler(
     ExternalAPIException,
     api_failure_handler
+)
+
+app.add_exception_handler(
+    WeatherAPIException,
+    weather_exception_handler
 )
 
 @app.get("/")

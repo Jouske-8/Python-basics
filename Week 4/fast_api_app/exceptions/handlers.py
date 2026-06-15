@@ -53,3 +53,23 @@ async def validation_exception_handler(
             }
         }
     )
+
+from exceptions.custom_exceptions import (
+    WeatherAPIException
+)
+
+async def weather_exception_handler(
+    request,
+    exc
+):
+    return JSONResponse(
+        status_code=503,
+        content={
+            "success": False,
+            "error": {
+                "code": 503,
+                "message": exc.message
+            }
+        }
+    )
+

@@ -2,3 +2,5 @@
 2026-06-12 18:17:01,872 - INFO - Creating student: Devansh
 2026-06-12 18:18:10,930 - INFO - Deleting student 2
 2026-06-12 18:18:10,930 - INFO - Fetching student 2
+2026-06-15 14:31:45,560 - INFO - Calling Weather API: 28.6139,77.209
+2026-06-15 14:31:46,560 - INFO - Weather data transformed
