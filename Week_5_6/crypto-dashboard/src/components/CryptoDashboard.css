@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+.dashboard{
+    max-width:1300px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.header{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.header h1{
+    font-size:42px;
+}
+
+.header p{
+    color:#94a3b8;
+    margin-top:10px;
+}
+
+.controls{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    margin-bottom:30px;
+    justify-content:center;
+}
+
+.controls input,
+.controls select{
+    padding:12px 15px;
+    border:none;
+    border-radius:10px;
+    background:#1e293b;
+    color:white;
+    min-width:180px;
+}
+
+.controls button{
+    border:none;
+    background:#2563eb;
+    color:white;
+    padding:12px 25px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.controls button:hover{
+    background:#1d4ed8;
+}
+
+.coin-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.coin-card{
+    background:rgba(255,255,255,.06);
+    backdrop-filter:blur(20px);
+    border-radius:18px;
+    padding:20px;
+    transition:.3s;
+    border:1px solid rgba(255,255,255,.1);
+}
+
+.coin-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.3);
+}
+
+.coin-top{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.coin-top img{
+    width:55px;
+}
+
+.coin-top span{
+    color:#94a3b8;
+}
+
+.coin-info{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.coin-info p{
+    display:flex;
+    justify-content:space-between;
+}
+
+.green{
+    color:#22c55e;
+    font-weight:bold;
+}
+
+.red{
+    color:#ef4444;
+    font-weight:bold;
+}
+
+.loading{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:60px;
+}
+
+.spinner{
+    width:60px;
+    height:60px;
+    border:6px solid rgba(255,255,255,.2);
+    border-top:6px solid #3b82f6;
+    border-radius:50%;
+    animation:spin .8s linear infinite;
+}
+
+.error{
+    text-align:center;
+    background:#dc2626;
+    padding:20px;
+    border-radius:12px;
+    margin-top:30px;
+}
+
+@keyframes spin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+@media(max-width:700px){
+
+    .controls{
+        flex-direction:column;
+    }
+
+    .controls input,
+    .controls select,
+    .controls button{
+        width:100%;
+    }
+
+    .header h1{
+        font-size:30px;
+    }
+
+}
